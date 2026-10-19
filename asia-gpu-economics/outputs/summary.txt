@@ -1,0 +1,25 @@
+
+MARKET (H100 SXM on-demand, USD/GPU-hr, 42 quotes)
+  Asian hyperscaler median        9.49  (range 8.26-17.82)
+  Asian non-hyperscaler median    2.16  (n=4)
+  Hyperscaler / non-hyperscaler   4.4x
+  Asia vs US, same instance       {'AWS AU': 1.3, 'Azure AU': 1.45, 'AWS ID': 1.38, 'AWS IN': 1.2, 'AWS JP': 1.25, 'Azure JP': 1.45, 'AWS KR': 1.38, 'Azure KR': 1.35}
+  Silicon Data index (latest)     2.24
+
+DEPRECIATION (half-life, years)   residual forecast 1.9, realized sales 2.8, dealer asks 4.2
+
+BASE CASE  rent 2.16, utilisation 70%, rents -15%/yr, 70% LTV, 8%, 36 mo
+  DSCR by loan year               1.10, 0.81, 0.57
+  Rent needed for DSCR 1.0 / 1.25 2.83 / 3.22
+  Break-even utilisation          95%
+
+COST PER BILLED GPU-HOUR          2.00  (hardware & infra 1.14, electricity 0.34, colocation 0.37, operations 0.14)
+  Electricity share by market     JP 17%, SG 20%, TW 19%, HK 16%, KR 13%, MY 12%, IN 11%, ID 7%, US 15%
+  Cost per useful hour            well-built cluster 2.11, average cluster 2.35, poorly built cluster 2.86
+
+STRESS (weakest-year DSCR)        Base case 0.57, Flat rents (no decline) 1.25, Rent -30% 0.15, Utilisation 50% 0.22, Electricity +50% 0.41, Rent -30% and util. 50% -0.07
+DSCR GRID                         50% LTV, 36 mo: 0.79, 50% LTV, 48 mo: 0.65, 50% LTV, 60 mo: 0.40, 60% LTV, 36 mo: 0.66, 60% LTV, 48 mo: 0.54, 60% LTV, 60 mo: 0.33, 70% LTV, 36 mo: 0.57, 70% LTV, 48 mo: 0.46, 70% LTV, 60 mo: 0.28
+UNDERWATER MONTH @70% LTV         {'residual forecast': {36: None, 48: None, 60: None}, 'realized sales': {36: None, 48: None, 60: None}, 'dealer asks': {36: None, 48: None, 60: None}}
+MAX SAFE LTV                      {"residual forecast": {"36": 0.98, "48": 0.88, "60": 0.73}, "realized sales": {"36": 1.0, "48": 0.99, "60": 0.93}, "dealer asks": {"36": 1.0, "48": 1.0, "60": 1.0}}
+
+Charts and results.json written to outputs/

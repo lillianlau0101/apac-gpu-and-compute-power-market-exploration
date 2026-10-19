@@ -1,0 +1,43 @@
+date,provider,provider_type,country,region,gpu,contract,gpus_per_unit,unit_price_usd,usd_per_gpu_hr,method,source_url,note
+2026-10-19,AWS,hyperscaler,IN,Asia Pacific (Mumbai),B200,on-demand,8,160.64525,20.081,api,https://aws.amazon.com/ec2/pricing/on-demand/,p6-b200.48xlarge
+2026-10-19,AWS,hyperscaler,US,US East (N. Virginia),B200,on-demand,8,113.9328,14.242,api,https://aws.amazon.com/ec2/pricing/on-demand/,p6-b200.48xlarge
+2026-10-19,Vast.ai,marketplace,US,,B200,on-demand,1,,9.253,api,https://vast.ai/,median of 5 live offers
+2026-10-19,Azure,hyperscaler,AU,australiaeast,H100 NVL,on-demand,1,10.121,10.121,api,https://prices.azure.com/api/retail/prices,Standard_NC40ads_H100_v5
+2026-10-19,Azure,hyperscaler,IN,centralindia,H100 NVL,on-demand,1,9.772,9.772,api,https://prices.azure.com/api/retail/prices,Standard_NC40ads_H100_v5
+2026-10-19,Azure,hyperscaler,JP,japaneast,H100 NVL,on-demand,1,10.121,10.121,api,https://prices.azure.com/api/retail/prices,Standard_NC40ads_H100_v5
+2026-10-19,Vast.ai,marketplace,JP,,H100 NVL,on-demand,1,,2.658,api,https://vast.ai/,median of 2 live offers
+2026-10-19,Azure,hyperscaler,KR,koreacentral,H100 NVL,on-demand,1,9.423,9.423,api,https://prices.azure.com/api/retail/prices,Standard_NC40ads_H100_v5
+2026-10-19,Azure,hyperscaler,SG,southeastasia,H100 NVL,on-demand,1,9.074,9.074,api,https://prices.azure.com/api/retail/prices,Standard_NC40ads_H100_v5
+2026-10-19,Azure,hyperscaler,US,eastus,H100 NVL,on-demand,1,6.98,6.98,api,https://prices.azure.com/api/retail/prices,Standard_NC40ads_H100_v5
+2026-10-19,Vast.ai,marketplace,US,,H100 NVL,on-demand,1,,3.029,api,https://vast.ai/,median of 1 live offers
+2026-10-19,AWS,hyperscaler,AU,Asia Pacific (Sydney),H100 SXM,on-demand,8,71.552,8.944,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5.48xlarge
+2026-10-19,Azure,hyperscaler,AU,australiaeast,H100 SXM,on-demand,8,142.6,17.825,api,https://prices.azure.com/api/retail/prices,Standard_ND96isr_H100_v5
+2026-10-19,AWS,hyperscaler,ID,Asia Pacific (Jakarta),H100 SXM,on-demand,8,75.9552,9.494,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5.48xlarge
+2026-10-19,AWS,hyperscaler,IN,Asia Pacific (Mumbai),H100 SXM,on-demand,8,66.048,8.256,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5.48xlarge
+2026-10-19,Vast.ai,marketplace,IN,,H100 SXM,on-demand,1,,1.921,api,https://vast.ai/,median of 4 live offers
+2026-10-19,AWS,hyperscaler,JP,Asia Pacific (Tokyo),H100 SXM,on-demand,8,68.8,8.6,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5.48xlarge
+2026-10-19,Azure,hyperscaler,JP,japaneast,H100 SXM,on-demand,8,142.564,17.82,api,https://prices.azure.com/api/retail/prices,Standard_ND96isr_H100_v5
+2026-10-19,Vast.ai,marketplace,JP,,H100 SXM,on-demand,1,,2.401,api,https://vast.ai/,median of 6 live offers
+2026-10-19,AWS,hyperscaler,KR,Asia Pacific (Seoul),H100 SXM,on-demand,8,75.9552,9.494,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5.48xlarge
+2026-10-19,Azure,hyperscaler,KR,koreacentral,H100 SXM,on-demand,8,132.732,16.591,api,https://prices.azure.com/api/retail/prices,Standard_ND96isr_H100_v5
+2026-10-19,Vast.ai,marketplace,TH,,H100 SXM,on-demand,1,,1.788,api,https://vast.ai/,median of 1 live offers
+2026-10-19,AWS,hyperscaler,US,US East (N. Virginia),H100 SXM,on-demand,8,55.04,6.88,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5.48xlarge
+2026-10-19,Azure,hyperscaler,US,eastus,H100 SXM,on-demand,8,98.32,12.29,api,https://prices.azure.com/api/retail/prices,Standard_ND96isr_H100_v5
+2026-10-19,Vast.ai,marketplace,US,,H100 SXM,on-demand,1,,3.485,api,https://vast.ai/,median of 2 live offers
+2026-10-19,AWS,hyperscaler,ID,Asia Pacific (Jakarta),H200,on-demand,8,87.34848,10.919,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5en.48xlarge
+2026-10-19,AWS,hyperscaler,IN,Asia Pacific (Mumbai),H200,on-demand,8,75.9552,9.494,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5en.48xlarge
+2026-10-19,AWS,hyperscaler,JP,Asia Pacific (Tokyo),H200,on-demand,8,79.12,9.89,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5en.48xlarge
+2026-10-19,AWS,hyperscaler,KR,Asia Pacific (Seoul),H200,on-demand,8,87.34848,10.919,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5en.48xlarge
+2026-10-19,AWS,hyperscaler,US,US East (N. Virginia),H200,on-demand,8,63.296,7.912,api,https://aws.amazon.com/ec2/pricing/on-demand/,p5en.48xlarge
+2024-09-01,Silicon Data H100 Rental Index,index,GLOBAL,,H100 SXM,on-demand,1,,3.06,secondary,https://introl.com/blog/gpu-cloud-price-collapse-h100-64-percent-drop-2025,SDH100RT level as cited by Introl
+2025-06-01,Silicon Data H100 Rental Index,index,GLOBAL,,H100 SXM,on-demand,1,,2.36,secondary,https://introl.com/blog/gpu-cloud-price-collapse-h100-64-percent-drop-2025,SDH100RT level as cited by Introl
+2025-08-31,Silicon Data H100 Rental Index,index,GLOBAL,,H100 SXM,on-demand,1,,2.24,published,https://www.silicondata.com/blog/h100-rental-market-update-september-2025,August 2025 range 2.22-2.26; midpoint
+2026-10-19,Lambda,neocloud,US,,H100 SXM,on-demand,8,,3.99,published,https://lambda.ai/pricing,8x instance; excludes tax
+2026-10-19,Lambda,neocloud,US,,B200,on-demand,8,,6.69,published,https://lambda.ai/pricing,8x instance; excludes tax
+2026-10-19,RunPod (Community Cloud),neocloud,GLOBAL,,H100 SXM,on-demand,1,,2.69,published,https://www.runpod.io/pricing,
+2026-10-19,RunPod (Secure Cloud),neocloud,GLOBAL,,H100 SXM,on-demand,1,,3.99,published,https://www.runpod.io/pricing,
+2026-10-19,RunPod (Community Cloud),neocloud,GLOBAL,,H200,on-demand,1,,3.59,published,https://www.runpod.io/pricing,
+2026-10-19,RunPod (Secure Cloud),neocloud,GLOBAL,,B200,on-demand,1,,7.99,published,https://www.runpod.io/pricing,
+2026-10-19,GMI Cloud,neocloud,GLOBAL,,H200,on-demand,1,,2.60,published,https://www.gmicloud.ai/en/blog/where-to-rent-nvidia-h200,price stated in provider blog
+2025-08-01,Sakura Internet (Koukaryoku VRT),asia-cloud,JP,,H100 SXM,on-demand,1,,5.69,published,https://cloud.watch.impress.co.jp/docs/news/2035747.html,JPY 990/hr incl. 10% tax -> JPY 900 ex-tax at 158.24 JPY/USD (ECB 2026-10-19)
+2026-10-19,AWS (EC2 Capacity Blocks),hyperscaler,JP,Asia Pacific (Tokyo),H100 SXM,capacity-block,8,31.464,3.933,published,https://aws.amazon.com/ec2/capacityblocks/pricing/,p5.48xlarge reserved block; not on-demand

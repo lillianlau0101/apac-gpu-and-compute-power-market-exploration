@@ -1,0 +1,122 @@
+{
+  "market": {
+    "asia_hyperscaler_median": 9.49,
+    "asia_hyperscaler_range": [
+      8.256,
+      17.825
+    ],
+    "asia_non_hyperscaler_median": 2.16,
+    "asia_non_hyperscaler_n": 4,
+    "hyperscaler_to_non_hyperscaler": 4.4,
+    "asia_vs_us_same_instance": {
+      "AWS AU": 1.3,
+      "Azure AU": 1.45,
+      "AWS ID": 1.38,
+      "AWS IN": 1.2,
+      "AWS JP": 1.25,
+      "Azure JP": 1.45,
+      "AWS KR": 1.38,
+      "Azure KR": 1.35
+    },
+    "silicon_data_latest": 2.24,
+    "n_quotes": 42
+  },
+  "depreciation_half_life_years": {
+    "residual forecast": 1.906414521581766,
+    "realized sales": 2.815048749634585,
+    "dealer asks": 4.220514870247525
+  },
+  "base_case": {
+    "rent_usd_per_gpu_hr": 2.16,
+    "utilization": 0.7,
+    "rent_decline_per_year": 0.15,
+    "dscr_by_year": [
+      1.0997738017655798,
+      0.8120342998527057,
+      0.5674557232267629
+    ],
+    "min_dscr": 0.5674557232267629,
+    "required_rent_dscr_1.0": 2.8341215975172,
+    "required_rent_dscr_1.25": 3.2237473732563444,
+    "breakeven_utilization": 0.9517584518839746
+  },
+  "cost_per_billed_hour": {
+    "total": 2.001326696848766,
+    "parts": {
+      "hardware & infra": 1.144913159177533,
+      "electricity": 0.33929024999999996,
+      "colocation": 0.37426614481409004,
+      "operations": 0.14285714285714285
+    },
+    "electricity_share": 0.16953266577327783
+  },
+  "electricity_share_by_market": {
+    "JP": 0.16953266577327783,
+    "SG": 0.19558185229688124,
+    "TW": 0.19409486721531907,
+    "HK": 0.16235245458125797,
+    "KR": 0.13148128675297283,
+    "MY": 0.11741542547702051,
+    "IN": 0.11021025016238081,
+    "ID": 0.06638505492152853,
+    "US": 0.1476129977936575
+  },
+  "cost_per_useful_hour": {
+    "well-built cluster": 2.106659680893438,
+    "average cluster": 2.354501996292666,
+    "poorly built cluster": 2.85903813835538
+  },
+  "stress_min_dscr": {
+    "Base case": 0.5674557232267629,
+    "Flat rents (no decline)": 1.2458606065883011,
+    "Rent -30%": 0.15167214296265993,
+    "Utilisation 50%": 0.22383724802849667,
+    "Electricity +50%": 0.40532288091442514,
+    "Rent -30% and util. 50%": -0.07315102358871974
+  },
+  "dscr_grid_ltv_term": {
+    "50% LTV, 36 mo": 0.794438012517468,
+    "50% LTV, 48 mo": 0.6461494989917976,
+    "50% LTV, 60 mo": 0.39563521119633577,
+    "60% LTV, 36 mo": 0.6620316770978901,
+    "60% LTV, 48 mo": 0.538457915826498,
+    "60% LTV, 60 mo": 0.32969600933027976,
+    "70% LTV, 36 mo": 0.5674557232267629,
+    "70% LTV, 48 mo": 0.46153535642271254,
+    "70% LTV, 60 mo": 0.28259657942595406
+  },
+  "underwater_month_70ltv": {
+    "residual forecast": {
+      "36": null,
+      "48": null,
+      "60": null
+    },
+    "realized sales": {
+      "36": null,
+      "48": null,
+      "60": null
+    },
+    "dealer asks": {
+      "36": null,
+      "48": null,
+      "60": null
+    }
+  },
+  "max_safe_ltv": {
+    "residual forecast": {
+      "36": 0.9814957536072277,
+      "48": 0.8758173255929457,
+      "60": 0.7330588266715065
+    },
+    "realized sales": {
+      "36": 1.0,
+      "48": 0.9915112927317002,
+      "60": 0.9332343746268413
+    },
+    "dealer asks": {
+      "36": 1.0,
+      "48": 1.0,
+      "60": 1.0
+    }
+  }
+}

@@ -1,0 +1,13 @@
+date,gpu,condition,unit,price_usd,usd_per_gpu,price_type,source_name,source_url,note
+2023-03-01,H100 SXM,new,8-GPU DGX,270000,33750,estimate,SemiAnalysis via TRG Datacenters,https://www.trgdatacenters.com/resource/nvidia-h100-price,No official NVIDIA list price; analyst estimate for DGX H100. Used as the reference new price.
+2024-06-01,H100 SXM,used,per GPU,50000,50000,peak ask,Hashrate Index,https://hashrateindex.com/blog/used-gpu-market-pricing-deprecation-secondary-ai/,Peak-scarcity secondary price; above new reference. Excluded from depreciation fit.
+2025-12-01,H100 SXM,new-in-box,per GPU,18000,18000,ask,Reddit r/homelabsales via IntuitionLabs,https://intuitionlabs.ai/articles/used-ai-gpu-prices-resale-trends,3-card lot
+2026-08-31,H100 SXM,used,per GPU,14250,14250,realized,American Compute Rack Report (Oct 2026),https://www.amcompute.com/appraisals/h100,Typical realized sale; 25th percentile 13200; limited sample
+2026-08-31,H100 SXM,used,per GPU,16576,16576,dealer ask,American Compute Rack Report (Oct 2026),https://www.amcompute.com/appraisals/h100,Median dealer ask
+2026-08-31,H100 SXM,used,8-GPU HGX node,195000,24375,realized,American Compute Rack Report (Oct 2026),https://www.amcompute.com/appraisals/h100,Whole node incl. CPUs/NICs/chassis
+2026-09-30,H100 SXM,used,per GPU,24500,24500,indicative,Compute Exchange via IntuitionLabs,https://intuitionlabs.ai/articles/used-ai-gpu-prices-resale-trends,Q3 2026 indicative range 22000-27000; midpoint
+2027-06-30,H100 SXM,forecast,per GPU,10294,10294,forecast,American Compute residual report (Jun 2026),https://www.amcompute.com/appraisals/h100,Moderate band 2027 residual 19-42% of the 33750 reference; midpoint 30.5%
+2028-06-30,H100 SXM,forecast,per GPU,3544,3544,forecast,American Compute residual report (Jun 2026),https://www.amcompute.com/appraisals/h100,Moderate band 2028 residual 7-14% of the 33750 reference; midpoint 10.5%
+2020-05-14,A100 40GB,new,per GPU,11000,11000,estimate,IntuitionLabs,https://intuitionlabs.ai/articles/used-ai-gpu-prices-resale-trends,New-unit reference 10000-12000; midpoint; A100 launched May 2020
+2026-01-31,A100 40GB,refurbished,per GPU,7800,7800,ask,Hashrate Index via IntuitionLabs,https://intuitionlabs.ai/articles/used-ai-gpu-prices-resale-trends,Specialised channels
+2026-08-31,A100 40GB,used,per GPU,3000,3000,ask,Reddit r/homelabsales via IntuitionLabs,https://intuitionlabs.ai/articles/used-ai-gpu-prices-resale-trends,Commenter estimate 2000-4000; midpoint

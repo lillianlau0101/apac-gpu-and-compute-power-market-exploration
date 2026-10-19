@@ -1,0 +1,10 @@
+country,market,local_price,currency,usd_per_kwh,date,source_url
+JP,Japan,28.260,JPY,0.178,2026-03,https://www.globalpetrolprices.com/Japan/electricity_prices/
+SG,Singapore,0.271,SGD,0.212,2026-03,https://www.globalpetrolprices.com/Singapore/electricity_prices/
+TW,Taiwan,6.770,TWD,0.210,2026-03,https://www.globalpetrolprices.com/Taiwan/electricity_prices/
+HK,Hong Kong,1.325,HKD,0.169,2026-03,https://www.globalpetrolprices.com/Hong-Kong/electricity_prices/
+KR,South Korea,173.869,KRW,0.132,2026-03,https://www.globalpetrolprices.com/South-Korea/electricity_prices/
+MY,Malaysia,0.473,MYR,0.116,2026-03,https://www.globalpetrolprices.com/Malaysia/electricity_prices/
+IN,India,10.280,INR,0.108,2026-03,https://www.globalpetrolprices.com/India/electricity_prices/
+ID,Indonesia,1114.740,IDR,0.062,2026-03,https://www.globalpetrolprices.com/Indonesia/electricity_prices/
+US,United States,0.151,USD,0.151,2026-03,https://www.globalpetrolprices.com/USA/electricity_prices/
